@@ -30,7 +30,7 @@ public class Tracker {
         return boxes;
     }
 
-    List<Box> getAll() {
+    public List<Box> getAll() {
         return this.trackedBoxes;
     }
 

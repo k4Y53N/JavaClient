@@ -7,7 +7,7 @@ public class Box {
     int classId;
     int id, gen = 0;
 
-    Box(JSONArray box) {
+    public Box(JSONArray box) {
         x1 = box.getFloat(0);
         y1 = box.getFloat(1);
         x2 = box.getFloat(2);
